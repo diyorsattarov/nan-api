@@ -1,0 +1,37 @@
+# Ignore Node.js modules and dependencies
+node_modules/
+
+# Ignore build and output directories
+build/
+out/
+Release/
+Debug/
+.vscode/
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore any compiled addons
+build/Release/*.node
+build/Debug/*.node
+
+# Ignore any generated documentation
+doc/
+
+# Ignore editor specific files
+.vscode/
+.idea/
+
+# Ignore OS and text editor backup files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Ignore user-specific files
+npm-debug.log
+*.log
+
+# Ignore environment-specific files
+.env
